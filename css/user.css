@@ -1,0 +1,107 @@
+
+.food, .food1{
+  flex-wrap: wrap;
+    margin-bottom: 10%;
+  }
+
+  .food div , .food1 div{
+display: inline-block;
+    padding: 20px;
+  margin-left:9%;
+  margin-right: 7%;
+
+  }
+
+
+
+
+  .food img , .food1 img{
+
+     cursor: pointer;
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+    margin: 20px;
+ transition: all 1s;
+
+  }
+
+
+.food img:hover , .food1 img:hover
+{
+  filter: blur(1px) saturate(2.5);
+   transition: all 1s;
+}
+
+
+.food h2 , .food1 h2{
+  clear: both;
+  display: block;
+  width: 100%;
+  background: #fff;
+  
+  padding: 20px;
+  text-align:center; 
+}
+
+  
+  
+.food label, .food1 label{
+       cursor: pointer;
+}
+
+  .food input:checked , {
+
+  height: 50px;
+  width: 50px;
+}
+
+ #food-container{
+
+ padding: 5%;
+
+}
+
+  #closed{
+
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 100px;
+    margin:5%  0  5%  29%  ;
+  }
+
+
+  #logout{
+   color: #555555;
+float: right;
+padding: 10px;
+text-decoration:none; 
+}
+
+
+
+   #cart{  
+    margin-left: 62%;
+  
+  }
+
+
+ #cart:hover  {
+ border-bottom:  5px #555555 solid;
+
+}
+
+#logout:hover{
+
+   border-bottom:  5px #555555 solid;
+
+}
+
+
+
+.sidebar img{
+	width: 100px;
+	margin-left: 30%;
+	margin-top: -50px;
+	border-radius: 50px;
+}

@@ -1,0 +1,79 @@
+{
+  
+
+    "break": 
+     {
+          "bada":{
+           "id":"break-bada",
+           "title":"Sambhar Bada",
+           "price":30
+          },
+          
+          "burgur":{
+           "id":"break-burgur",
+           "title":"Burgur",
+           "price":35
+          },
+            "bade":{
+           "id":"break-bade",
+           "title":"Sabudane Badey",
+           "price":10
+          }
+     },
+          
+    "lunch": 
+     {
+          "thali":{
+           "id":"lunch-thali",
+           "title":"Spl. Thali",
+           "price":50
+          },
+          
+          "salad":{
+           "id":"lunch-salad",
+           "title":"Russian Salad",
+           "price":20
+          },
+            "curd":{
+           "id":"lunch-curd",
+           "title":"Sweet Curd",
+           "price":10
+          }
+     },
+       "nasta": 
+     {
+          "idli":{
+           "id":"nasta-idli",
+           "title":"Idli Sambhar",
+           "price":20
+          },
+          
+          "badai":{
+           "id":"nasta-Badai",
+           "title":"Badai",
+           "price":20
+          },
+            "parathe":{
+           "id":"nasta-parathe",
+           "title":"Aloo PArathe",
+           "price":25
+          } 
+       
+    },
+     "dinner": 
+     {
+          "thali":{
+           "id":"dinner-thali",
+           "title":"Spl. Delux Thali",
+           "price":50
+          },
+           "salad":{
+           "id":"lunch-salad",
+           "title":"Russian Salad",
+           "price":20
+          }
+       
+    }
+  
+}
+    

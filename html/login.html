@@ -1,0 +1,213 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="icon" href="..\img\moochlogo.png">  
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">  
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" type="text/css" href="../css/chef.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+  
+  
+  <script type="text/javascript" src="..\js\jquery-3.4.1.js"></script>
+  <script type="text/javascript" src="..\js\chef-user.js"></script>
+  <script type="text/javascript" src="..\js\chef.js"></script>
+
+
+</head>
+<style>
+
+
+
+
+</style>	
+<body >
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="../html/Home.html">Home</a>
+ 
+  <a href="#footer" onclick="closeNav()">Contact</a>
+</div>
+
+<header id="main">
+
+  <button class="openbtn" onclick="openNav()">☰</button>  
+  <a href="../html/home.html">  <img class="animated bounceInLeft  "  id="logo" src="../img/svg/logotxt-bw.svg" ></a>
+
+</header>
+
+
+<div  id="frame">
+	<form id="from">
+<div id="LoginContainer">
+
+			<h2>Log in to Chef</h2>
+
+ 			<input type="text" id="usr" placeholder="Username, phone or email " >
+		 	<input type="password" id="pwd" placeholder="Password"><img id="eye" src="..\img\svg\eye.svg"><br>
+		 	<a   class="btn" id="btnLogin">Log In</a><span id="txt"></span> 		
+</div>
+
+
+
+	
+<div id="SignUpContainer" >
+<form>
+			<h2  >SignUp to Chef</h2>
+			<div id="inName">
+	<input  id="inFn" 		type="text" placeholder="First Name">
+	<input  id="inLn"  		type="text" placeholder="Last Name">
+	</div>
+	
+	<input class="input" id="email" 	type="email" placeholder="xyz@mail.com">
+   
+   	<input  id="inGM" 	 	type="radio" name="gender"  value="Male" ><label   id="lblM" for="inGM">Male</label>
+   	<input  id="inGF" 	 	type="radio" name="gender"  value="Female" ><label id="lblF" for="inGF">Female</label> 
+
+   	<input class="input" id="dateofbirth" 				type="date" name="DOB" max="2002-01-01">
+	<div><input class="input"  				type="password" minlength="8" id="pwd1" placeholder="Password"><img id="pwd1img" > </div>
+	<div><input class="input"  				type="password" minlength="8" id="pwd2" placeholder="Confirm Password"><img id="pwd2img" ></div>
+	<div id="captchaTag" >			
+		<span id="captcha"></span>
+		<input type="text" id="chkcaptcha"  placeholder="Insert captcha" >
+		<img id="captchaimg" >
+	</div>	
+	<a class="btn" id="btnSignUp">Sign Up</a>
+	
+			
+</form>
+</div>
+
+		
+		
+<div id="alert" >
+	<a class="close" id="btnX"  href="#">&times;</a>
+	<div id="LoginA"><span>New to Chef? </span><a  id="PopSignUp" href="#">Sign up</a></div>
+</div>
+
+</form>
+</div> 		
+ 
+
+
+	<div id="popup1"  class="overlay">
+		
+
+		<div id="popup">
+    		<h3 id="SuccessH3">Signup Successful</h3><img id="SuccessMsg" src="..\img\svg\right.gif">
+  		</div>
+  		
+	</div>
+
+
+
+
+<footer id="footer" >
+
+           <div>
+                <h3 class="footer-top logo-footer" tabindex="0">
+                    <a  href="#" > <img  id="logo-f" src="../img/svg/logotxt-bw.svg" /></a>
+
+                             <div class="social-container">
+                <a target="_blank" href="#"><img src="..\img\logo-twitter.png"></a>
+                <a target="_blank" href="#"><img src="..\img\logo-instagram.png"></a>
+                <a target="_blank" href="#"><img src="..\img\logo-facebook.png"></a>
+            </div>
+                </h3>
+
+            </div>
+                  
+            
+ <div class="footer_divider"></div>
+          
+           
+            <div class="col-1">
+              <h3>Contact Info.</h3>
+              
+            
+                <ul class="footer-links--big">    
+                    <li>
+                        <i class="fa fa-phone"></i> &nbsp;&nbsp; <h4>+91-1907-080-1907</h4>
+                    </li>
+                        <li><br></li>
+                    <li>
+                        <i class="fa fa-map-marker"></i> &nbsp;&nbsp; <h4>Bawarchi Group, Bhopal, India</h4>
+                    </li>        
+                </ul>
+            </div>
+
+
+              <div class="col-2">
+                <h3>For Stocks</h3>
+               
+                        <ul class="footer-links--big">
+                           
+                            <li>
+                                <a >
+                                    Order
+                                </a>
+                            </li>
+                            <li>
+                                <a >
+                                    Book
+                                </a>
+                            </li>
+                            <li>
+                                <a >
+                                    Trace
+                                </a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+            <div class="col-3">
+                <h3>For Foodies</h3>
+                <ul class="footer-links--big">
+                    <li>
+                        <a >
+                        Sunday &nbsp;&nbsp; 10:30 AM - 10:00 PM
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                        Mon-Fri &nbsp;&nbsp; 09:00 AM - 08:00 PM
+                        </a>
+                    </li>
+                   
+                    <li>
+                        <a >
+                        Saturday &nbsp; 11:30 AM - 10:00 PM
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+          
+              
+
+        <div class="footer_divider"></div>
+        
+        
+      
+        <div class="footer-bottom ">
+            
+                                By continuing past this page, you agree to our <a href='#' rel='nofollow'>Terms of Service</a>, <a href='#' rel='nofollow'>Cookie Policy</a> and <a href='#' rel='nofollow'>Privacy Policy</a>. All trademarks are properties of their respective owners. &copy; 2008-2019 - <a href='#'>Bawarchi</a>&trade; Pvt Ltd. All rights reserved.
+                        
+        </div>
+        
+</footer>
+
+
+</body>
+
+
+
+
+</html>

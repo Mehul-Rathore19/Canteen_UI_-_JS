@@ -1,0 +1,52 @@
+google
+AIzaSyCo7RD4-3CgajCxDpMSu9L9xMhQ-DFlNtc
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo7RD4-3CgajCxDpMSu9L9xMhQ-DFlNtc&callback=initMap"></script>
+
+
+paytm
+Test Merchant ID 			toiUMR66601169055811
+Test Account Secret Key		6JROww3CB686%#ht
+
+ <form method="post" action="https://securegw-stage.paytm.in/order/process" name="paytm">
+
+
+
+ payU
+ Test Key & Salt
+Merchant key: DJzDEf6s
+Merchant Salt: Mx3jkCziAV
+Auth Header:
+qvhv8FLF4nnGxXFpirmJujPeD84uv/58qvV5c26sKv8=
+
+
+https://pmny.in/BIUq53DPzsuf
+
+
+
+
+
+
+
+
+
+
+JSON 
+
+ EXAM JSON https://learnwebcode.github.io/json-example/animals-2.json
+
+
+
+http://www.filltext.com/
+
+learn https://tutorialzine.com/2015/01/learn-handlebars-in-10-minutes
+
+HandleBAr.js https://handlebarsjs.com/expressions.html 
+git link     https://github.com/wycats/handlebars.js/
+
+JSON BEAUTY https://jsoneditoronline.org/
+
+
+ABOUT RANDOMUSER            https://randomuser.me/
+RANDOMUSER JSON CRAETOR API https://randomapi.com/
+

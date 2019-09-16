@@ -1,0 +1,57 @@
+[
+   {
+           "id":"b-1",
+           "title":"Sambhar Bada",
+           "price":30
+    },          
+    {
+           "id":"b-2",
+           "title":"Burgur",
+           "price":35
+    },   
+    {
+           "id":"b-3",
+           "title":"Sabudane Badey",
+           "price":10  
+    },
+    {
+           "id":"l-1",
+           "title":"Spl. Thali",
+           "price":50
+    },
+    {
+          "id":"l-2",
+           "title":"Russian Salad",
+           "price":20
+    },
+    {
+           "id":"l-3",
+           "title":"Sweet Curd",
+           "price":10
+    },
+    {
+           "id":"n-1",
+           "title":"Idli Sambhar",
+           "price":20
+     },
+     {
+           "id":"n-2",
+           "title":"Badai",
+           "price":20
+     },
+     {
+           "id":"n-3",
+           "title":"Aloo PArathe",
+           "price":25 
+    },
+    {
+          "id":"d-1",
+           "title":"Spl. Delux Thali",
+           "price":50
+    },
+    {
+           "id":"d-2",
+           "title":"Russian Salad",
+           "price":20
+    }
+]       
